@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"example.com/myapp/internal/services"
+	"myapp/internal/services"
 )
 
 type PingResponse struct {

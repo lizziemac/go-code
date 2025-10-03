@@ -3,9 +3,9 @@ package server
 import (
 	"net/http"
 
-	"example.com/myapp/internal/api/handlers"
-	apimw "example.com/myapp/internal/api/middleware"
-	commonmw "example.com/myapp/internal/middleware"
+	"myapp/internal/api/handlers"
+	apimw "myapp/internal/api/middleware"
+	commonmw "myapp/internal/middleware"
 )
 
 func Setup() http.Handler {

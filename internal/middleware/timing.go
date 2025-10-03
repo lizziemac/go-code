@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"time"
 
-	"example.com/myapp/internal/logger"
+	"myapp/internal/logger"
 )
 
 // RequestTimer is a middleware that logs the duration of each HTTP request.

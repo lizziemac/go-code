@@ -3,8 +3,8 @@ package main
 import (
 	"net/http"
 
-	"example.com/myapp/internal/api/server"
-	"example.com/myapp/internal/logger"
+	"myapp/internal/api/server"
+	"myapp/internal/logger"
 )
 
 func main() {

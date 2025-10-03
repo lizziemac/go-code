@@ -5,8 +5,8 @@ import (
 	"io"
 	"net/http"
 
-	"example.com/myapp/internal/logger"
-	"example.com/myapp/internal/middleware"
+	"myapp/internal/logger"
+	"myapp/internal/middleware"
 )
 
 // LogRequestBody is a middleware that logs the HTTP request body along with the method and path.

@@ -6,7 +6,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"example.com/myapp/internal/api/server"
+	"myapp/internal/api/server"
 )
 
 func TestNotFoundReturns404(t *testing.T) {

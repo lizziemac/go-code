@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"example.com/myapp/internal/middleware"
+	"myapp/internal/middleware"
 )
 
 func TestWithState_PassesState(t *testing.T) {

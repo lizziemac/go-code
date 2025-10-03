@@ -6,7 +6,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"example.com/myapp/internal/services"
+	"myapp/internal/services"
 )
 
 func TestPingHttpHandling(t *testing.T) {

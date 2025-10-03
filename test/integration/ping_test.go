@@ -6,9 +6,11 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"example.com/myapp/internal/api/server"
+	"myapp/internal/api/server"
 )
 
+// TestPingEndpoint verifies that the /api/v1/ping endpoint responds with a 200 OK status.
+// Intentionally uses httptest.NewServer to test the full stack including middleware.
 func TestPingEndpoint(t *testing.T) {
 	srv := httptest.NewServer(server.Setup())
 	defer srv.Close()
